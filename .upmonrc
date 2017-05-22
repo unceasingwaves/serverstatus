@@ -14,6 +14,7 @@
     // http://www.nodemailer.com/
     "transport": { 
       "service": "",
+      "port": 25
       "auth": {
         "user": "",
         "pass": ""
@@ -30,7 +31,7 @@
         "recipients": "447000000000"
       }
     }
-  }
+  },
   "graf": {
     // Port to run graf server on
     "port": 5000
