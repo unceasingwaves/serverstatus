@@ -1,0 +1,12 @@
+version: '2'
+services:
+    server-status:
+        image: 'unceasingwaves/serverstatus'
+        container_name: serverstatus
+        ports:
+            - '5000:5000'
+        volumes:
+            - ./.upmonrc:/.upmonrc
+
+
+

@@ -1,0 +1,39 @@
+{
+  "ping": {
+    // Time in ms between pings
+    "interval": 5000,
+    // URL's of services to ping
+    "services": ["http://localhost:3000/", "http://localhost:8000/"]
+  },
+  "mail": {
+    // Email from address
+    "from": "you@yourdomain.com",
+    // Email to address(es)
+    "to": ["you@yourdomain.com"],
+    // Nodemailer transport options
+    // http://www.nodemailer.com/
+    "transport": { 
+      "service": "",
+      "auth": {
+        "user": "",
+        "pass": ""
+      } 
+    }
+  },
+  {
+  "sms": {
+      // SMS provider config 
+      // For supported providers see https://github.com/alanshaw/upmon-sms 
+      "messagebird": {
+        "accessKey": "live_hy6ggbrRf4Bvfe48GGip8MtJM",
+        "originator": "447000000000",
+        "recipients": "447000000000"
+      }
+    }
+  }
+  "graf": {
+    // Port to run graf server on
+    "port": 5000
+  }
+}
+
